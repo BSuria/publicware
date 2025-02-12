@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import "./node_modules/nes.css/css/nes.css";
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: safe center;
+    align-items: safe center;
+    font-family: 'Press Start 2P', sans-serif;
+}
+.content {
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #e0e0e0;
+}
+.spacer {
+    width: 120px;
+}

@@ -1,0 +1,29 @@
+{
+  "name": "a3-bsuria",
+  "version": "0.1.0",
+  "description": "WPI CS4241-C25 Assignment A3",
+  "author": "Bryan Suria",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@material-tailwind/react": "^2.1.10",
+    "connect-ensure-login": "^0.1.1",
+    "connect-sqlite3": "^0.9.15",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "mime": "^2.4.4",
+    "mkdirp": "^3.0.1",
+    "mongodb": "^6.13.0",
+    "morgan": "^1.10.0",
+    "nes.css": "^2.3.0",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "main": "app.js",
+  "license": "ISC"
+}

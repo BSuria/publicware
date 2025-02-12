@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/login.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
+</head>
+<body>
+<section class="nes-container is-rounded">
+    <h1 >Playtime Leaderboard</h1>
+    <div class="nes-container is-rounded is-dark">
+        <form class="nes-container is-dark with-title" action="/" method="post">
+            <h1 class="title">Login</h1>
+            <section>
+                <label for="username">Username</label>
+                <input id="username" name="username" type="text" autocomplete="username" required autofocus>
+            </section>
+            <section>
+                <label for="current-password">Password</label>
+                <input id="current-password" name="password" type="password" autocomplete="current-password" required>
+            </section>
+            <div class="button-container">
+                <button id="loginbutton" type="submit" class="nes-btn is-primary">Sign in</button>
+                <button id="signupbutton" type="submit" class="nes-btn is-primary">Register</button>
+            </div>
+        </form>
+    </div>
+</section>
+</body>
+</html>
